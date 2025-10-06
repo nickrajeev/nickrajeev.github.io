@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Content Writer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to ensure your exact background color is used */
+        .bg-primary-dark {
+            background-color: #191a1a;
+        }
+        .bg-card-dark {
+            background-color: #242626; /* A slightly lighter shade for card contrast */
+        }
+        /* Smooth scrolling for internal links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-primary-dark text-white font-sans">
+
+    <nav class="sticky top-0 z-50 bg-primary-dark/95 border-b border-gray-700 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#home" class="text-2xl font-bold tracking-wider hover:text-gray-400 transition-colors">YOUR NAME</a>
+                <div class="flex space-x-4">
+                    <a href="#about" class="px-3 py-2 text-sm font-medium hover:text-gray-400 transition-colors">About Me</a>
+                    <a href="#portfolio" class="px-3 py-2 text-sm font-medium hover:text-gray-400 transition-colors">Portfolio</a>
+                    <a href="#contact" class="px-3 py-2 text-sm font-medium hover:text-gray-400 transition-colors">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center text-center px-4">
+        <div class="max-w-3xl">
+            <p class="text-xl text-gray-400 mb-4 animate-fadeIn">Hello, I'm</p>
+            <h1 class="text-6xl sm:text-7xl lg:text-8xl font-extrabold mb-6 leading-tight">
+                [YOUR NAME]
+            </h1>
+            <p class="text-2xl sm:text-3xl font-light text-gray-300">
+                Content Writer | SEO Specialist | Storyteller
+            </p>
+            <a href="#portfolio" class="mt-10 inline-block px-8 py-3 border border-white text-base font-medium rounded-full hover:bg-white hover:text-primary-dark transition-all duration-300">
+                See My Work
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-card-dark/50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 border-b-2 border-gray-600 pb-2 inline-block">About Me</h2>
+            <div class="space-y-6 text-lg text-gray-300">
+                <p>
+                    I am a professional content writer with [X] years of experience in crafting compelling, high-quality content that drives organic traffic and converts readers into customers. My expertise lies in turning complex ideas into clear, engaging, and SEO-optimized articles, blog posts, website copy, and whitepapers.
+                </p>
+                <p>
+                    I specialize in [Your Niche, e.g., FinTech, SaaS, Healthcare]. I use a data-driven approach to ensure every piece of content not only tells a great story but also achieves specific business objectives. Let's create content that truly resonates with your audience.
+                </p>
+                <p>
+                    **Skills:** Content Strategy, SEO Writing (Keyword Research, On-Page), Copywriting, Editing, Technical Writing, [Add another skill].
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 border-b-2 border-gray-600 pb-2 inline-block">Portfolio & Work Samples</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                <div class="bg-card-dark rounded-lg shadow-xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300 p-6 flex flex-col h-full">
+                    <h3 class="text-2xl font-semibold text-white mb-3">The Future of AI in Content</h3>
+                    <p class="text-sm text-gray-400 mb-4">Blog Post | SEO Focus | Published on [Client/Site Name]</p>
+                    <p class="text-gray-300 flex-grow mb-6">
+                        An in-depth article exploring the symbiotic relationship between AI tools and human content creators, focusing on efficiency and quality.
+                    </p>
+                    <a href="[LINK_TO_YOUR_ARTICLE_1]" target="_blank" class="inline-block text-center mt-auto px-4 py-2 bg-white text-primary-dark font-medium rounded-full hover:bg-gray-200 transition-colors">
+                        Read Article &rarr;
+                    </a>
+                </div>
+
+                <div class="bg-card-dark rounded-lg shadow-xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300 p-6 flex flex-col h-full">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Website Copy Redesign Case Study</h3>
+                    <p class="text-sm text-gray-400 mb-4">Web Copy | Conversion Rate Optimization (CRO)</p>
+                    <p class="text-gray-300 flex-grow mb-6">
+                        A case study detailing the process of overhauling a company's homepage and product pages, resulting in a 25% increase in sign-ups.
+                    </p>
+                    <a href="[LINK_TO_YOUR_CASE_STUDY_2]" target="_blank" class="inline-block text-center mt-auto px-4 py-2 bg-white text-primary-dark font-medium rounded-full hover:bg-gray-200 transition-colors">
+                        View Case Study &rarr;
+                    </a>
+                </div>
+                
+                <div class="bg-card-dark rounded-lg shadow-xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-300 p-6 flex flex-col h-full">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Whitepaper: Q3 Market Trends</h3>
+                    <p class="text-sm text-gray-400 mb-4">Long-form Content | Thought Leadership</p>
+                    <p class="text-gray-300 flex-grow mb-6">
+                        A comprehensive 10-page whitepaper analyzing emerging market trends in the [Your Industry] sector for the third quarter.
+                    </p>
+                    <a href="[LINK_TO_YOUR_WHITEPAPER_3]" target="_blank" class="inline-block text-center mt-auto px-4 py-2 bg-white text-primary-dark font-medium rounded-full hover:bg-gray-200 transition-colors">
+                        Download Report &rarr;
+                    </a>
+                </div>
+                
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-card-dark/50">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8 border-b-2 border-gray-600 pb-2 inline-block">Get In Touch</h2>
+            <p class="text-xl text-gray-300 mb-10">
+                Have a project or a question? I'm always open to discussing new opportunities.
+            </p>
+            
+            <div class="space-y-6">
+                <a href="mailto:[YOUR_EMAIL@EXAMPLE.COM]" class="inline-block w-full sm:w-auto px-10 py-4 bg-white text-primary-dark text-lg font-bold rounded-lg shadow-lg hover:bg-gray-200 transition-colors">
+                    Email Me Directly
+                </a>
+                
+                <p class="text-lg text-gray-400 pt-4">
+                    Or connect with me on:
+                    <a href="[YOUR_LINKEDIN_URL]" target="_blank" class="text-white hover:text-gray-400 underline ml-2">LinkedIn</a>
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="py-8 text-center border-t border-gray-700">
+        <p class="text-sm text-gray-500">&copy; 2025 [Your Name]. All rights reserved. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
